@@ -30,7 +30,7 @@ List of contents:
 # Exercise
 ## Setting up environment
 1. Go to: https://console.cloud.google.com/vertex-ai/workbench/list/instances?project=dataops-demo-342817
-2. If you don't see a project or you see an error, click on project select button right to the Google Cloud Platform sign, type dataops-demo-342817 and select it.
+2. If you don't see a project or you see an error, click on project select button right to the Google Cloud Platform sign, <br>type __dataops-demo-342817__ and select it.
 
 ![Screenshot 2022-04-25 at 22 34 56](https://user-images.githubusercontent.com/77925576/165170378-c7ed628d-4f5c-4d30-be2c-0aaca3ae08a1.png)
 
@@ -69,7 +69,8 @@ You are now inside managed Vertex AI Workbench instance, which will serve as our
   
   >-> Tip: when copy+pasting for the 1st time, you might be asked for permissions to access your clipboard by Chrome. Accept. 
 
-6. Run `dp create .` This command will create a full data-pipelines-cli environment with dbt project as a core part of it. IMPORTANT: provide __dataops-demo-342817__ as a GCP project name.
+6. Run `dp create .` This command will create a full data-pipelines-cli environment with dbt project as a core part of it. 
+<br> __IMPORTANT: provide __dataops-demo-342817____ as a GCP project name.
   
   >-> Tip: when prompted, you can simply press ENTER to use default values. Don't use it for GCP Project ID!
   
@@ -79,7 +80,7 @@ You are now inside managed Vertex AI Workbench instance, which will serve as our
   
   ![Screenshot 2022-04-25 at 23 08 50](https://user-images.githubusercontent.com/77925576/165175393-660a9fec-9a07-4179-93bd-abd337f9d285.png)
 
-7. Run `git init`. Data-pipelines-cli is a tool tightly coupled with CI/CD so we need to initialize git repository. We won't use CI/CD in this exercise.
+7. Run `git init`. Data-pipelines-cli is a tool tightly coupled with CI/CD so we need to initialize git repository. <br>We won't use CI/CD in this exercise.
 8. Run these commands in following order:
    `git add .`
    `git config --global user.email "you@example.com"`
