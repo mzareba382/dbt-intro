@@ -1,7 +1,7 @@
 ## dbt-resources
 
 This section contains various resources, which will help you establish your dbt knowledge.
-Ideal for starting your new dbt adventure!
+<br>Ideal for starting your new dbt adventure!
 
 List of contents:
 1. What is dbt and why companies are using it?
